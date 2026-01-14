@@ -1,0 +1,64 @@
+.bus-page {
+  min-height: 100vh;
+  background: #03192f;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #f80f07;
+}
+
+.welcome-text {
+  text-align: center;
+  color: #07f80b;
+  margin-bottom: 30px;
+}
+
+.bus-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bus-card {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.bus-card h3 {
+  color: #0066ff;
+  margin-bottom: 10px;
+}
+
+.route {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bus-card button {
+  width: 100%;
+  padding: 10px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bus-card button:hover {
+  background: #004bcc;
+}

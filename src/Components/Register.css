@@ -1,0 +1,65 @@
+/* Full page background */
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Card */
+.register-card {
+  background: #fff;
+  width: 500px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 5px;
+
+}
+
+.subtitle {
+  text-align: center;
+  color: gray;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+/* Labels */
+.register-card label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Inputs */
+.register-card input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+.register-card button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #dd2476;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-card button:hover {
+  background: #c71f64;
+}

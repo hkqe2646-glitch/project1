@@ -1,0 +1,43 @@
+.final-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.final-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 350px;
+}
+
+.final-card h1 {
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.final-card p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.final-card button {
+  padding: 12px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.final-card button:hover {
+  background: #0056b3;
+}
